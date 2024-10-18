@@ -71,7 +71,12 @@ const PokeAPI = () => {
                 </div>
 
             ) : (
-                <p>No results found.</p>
+                <p style={{ color: "white",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center" }}>No se ha encontrado ningun pokemon</p>
             )}
         </div>
     );
